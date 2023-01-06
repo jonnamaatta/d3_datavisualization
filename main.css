@@ -1,0 +1,108 @@
+body{
+	background:#eaeaea;
+	/*margin-top:50px;*/
+	font: 15px "Trebuchet MS";
+	color:#000000;
+  overflow-x: hidden;
+}
+
+#wrapper{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+#map_div{
+  width:30%;
+  height:50vh;
+  margin: auto;
+}
+
+#barchart_div{
+  position: absolute;
+  width:30%;
+  height: 60vh;
+  top: 93vh;
+  left: 120vh;
+  margin: auto;
+}
+
+#year_p{
+  position: absolute;
+  margin-top: 52vh;
+  margin-left: 107vh;
+  font-size: 2.4em;
+  color: rgb(109, 34, 76);
+}
+
+#region_p{
+  font-size: 1.2em;
+  margin-left: 2vh;
+  height: 1vh;
+  font-family: 'Lato', sans-serif;
+}
+
+#text_div{
+  width:55%;
+  height:50vh;
+  font-size: calc(1.8vw + 1vh);
+  margin: auto;
+  float: left;
+  margin-left: 5vh;
+}
+
+#heatmap_div{
+  position: absolute;
+  width:50%;
+  height:100vh;
+  top: 82vh;
+  margin: auto;
+  font-size: calc(1vw + 1.5vh);
+  float: left;
+}
+
+.headline, .subline {
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  fill: rgb(54, 4, 124);
+  font-family: 'Lato', sans-serif;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+.headline{
+  font-weight: bold;
+}
+
+.indicator{
+  font-weight: 100;
+  font-size: 0.75em;
+}
+
+.subline{
+  font-size: 50%;
+  font-weight: thin;
+}
+
+#year_chooser{
+  font-size: 50%;
+  font-weight: thin;
+  color: black;
+}
+
+.label{
+  font-family: 'PT Sans',sans-serif;
+  opacity: 1;
+  font-size: 30%;
+}
+
+.barchart_label, .barchart_value {
+  font-family: 'PT Sans',sans-serif;
+  opacity: 1;
+  font-size: 80%;
+}
+
+
